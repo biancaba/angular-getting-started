@@ -4,10 +4,10 @@ import { Product } from '../products';
 
 @Component({
   selector: 'app-card-view',
-  templateUrl: './card-view.component.html',
-  styleUrls: ['./card-view.component.css'],
+  templateUrl: './cart-view.component.html',
+  styleUrls: ['./cart-view.component.css'],
 })
-export class CardViewComponent implements OnInit {
+export class CartViewComponent implements OnInit {
   items: Product[] = [];
 
   constructor(private cartService: CartService) {}
